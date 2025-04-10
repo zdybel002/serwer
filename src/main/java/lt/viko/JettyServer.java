@@ -23,6 +23,7 @@ public class JettyServer {
 
 
         servletHandler.addServletWithMapping(JettyServlet.class, "/status");
+        servletHandler.addServletWithMapping(JettyMainServlet.class, "/");
 
 
         server.start();
