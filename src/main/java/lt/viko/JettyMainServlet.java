@@ -20,8 +20,9 @@ public class JettyMainServlet extends HttpServlet {
 
         // Generowanie strony HTML z linkiem
         out.println("<html><body>");
-        out.println("<h1>Welcome to the PDF Generator</h1>");
+        out.println("<h1>Welcome to the PDF </h1>");
         out.println("<a href='/pdf/static'>Test PDF</a>");
         out.println("</body></html>");
     }
 }
+
